@@ -4,13 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="./script.js" defer></script>
 </head>
 <body>
     
+    <div class="content">
+        <header>
+            <img src="resources/header.png" alt="">
+        </header>
+        <h2 class="vsComputer">You will play 5 games VS computer</h2>      
+        <h1 class="move">Choose a move</h1>
 
-    <script src="./script.js">
 
-    </script>
+        <div class="choose">
+            <img src="resources/rock-img.png" alt="rock-img" id="btnRock">
+            <img src="resources/paper-img.png" alt="paper-img" id="btnPaper">
+            <img src="resources/scissors-img.png" alt="scissors-img" id="btnScissors">
+        </div>
+
+        <div class="selection">
+            <p id="human-choice">You chose: </p>
+            <p id="computer-choice">The computer chose: </p>
+            <p id="round-winner">Current round winner: </p>
+            <p id="game-winner">Game winner: </p>
+        </div>
+    </div>
 
 </body>
 </html>

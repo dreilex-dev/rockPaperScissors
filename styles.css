@@ -1,0 +1,77 @@
+/**{
+    outline: 2px red solid;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+    */
+
+:root{
+    --font-family: "Roboto", sans-serif;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-family);
+    background-color: #788698;
+}
+
+
+.move{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 32px;
+    color: #f9993b;
+    font-weight: 700;
+}
+
+.vsComputer{
+    margin-top: 5px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 22px;
+    color: #f9993b;
+}
+
+.choose{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.choose img{
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.choose img:hover{
+    width: 105px;
+    height: 105px;
+}
+
+.content{
+    background: rgba(55, 72, 92, 0.55);
+    width: 360px;
+    height: 640px;
+    border-radius: 20px;
+    border: 1px solid rgba(55, 72, 92, 0.65)
+}
+
+header img{
+    border-radius: 10px;
+}
+
+.selection p{
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 18px;
+    color: #f9993b;
+}
